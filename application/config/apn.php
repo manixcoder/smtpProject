@@ -13,7 +13,7 @@
 | Full server path to this file is required.
 |
 */
-$config['PermissionFile'] = APPPATH.'third_party/iWashy.pem';
+
 //$config['PermissionFile'] = APPPATH.'third_party/ck.pem';
 
 /*
