@@ -58,22 +58,7 @@ CREATE TABLE `admin_adderss` (
 --
 
 INSERT INTO `admin_adderss` (`adminAddress_id`, `city`, `area`, `areaArabic`, `times`, `pickup_date`, `time_from`, `time_to`) VALUES
-(157, '1', 'SABA BASHA', 'سابا باشا', '', '00:00:00', '2018-04-05 01:00:00', '2018-04-05 02:00:00'),
-(159, '1', 'SABA BASHA', 'سابا باشا', '', '00:00:00', '2018-04-11 04:00:00', '2018-04-11 05:10:00'),
-(160, '1', 'SABA BASHA', 'سابا باشا', '', '00:00:00', '2018-04-05 13:00:00', '2018-04-05 14:00:00'),
-(161, '1', 'SABA BASHA', 'سابا باشا', '', '00:00:00', '2018-04-05 03:00:00', '2018-04-05 04:00:00'),
-(162, '1', 'SABA BASHA', 'سابا باشا', '', '00:00:00', '2018-04-05 03:30:00', '2018-04-05 03:45:00'),
-(163, '1', 'SABA BASHA', 'سابا باشا', '', '00:00:00', '2018-04-11 17:00:00', '2018-04-11 18:00:00'),
-(164, '1', 'smouha', 'سموحه', '', '00:00:00', '2018-04-11 01:00:00', '2018-04-11 02:00:00'),
-(165, '1', 'SABA BASHA', 'سابا باشا', '', '00:00:00', '2018-04-11 18:00:00', '2018-04-11 19:00:00'),
-(166, '1', 'SABA BASHA', 'سابا باشا', '', '00:00:00', '2018-04-11 21:00:00', '2018-04-11 22:00:00'),
-(168, '1', 'SABA BASHA', 'سابا باشا', '', '00:00:00', '2018-04-11 15:00:00', '2018-04-11 16:00:00'),
-(169, '1', 'smouha', 'سموحه', '', '00:00:00', '2018-05-01 05:00:00', '2018-05-01 06:00:00'),
-(170, '1', 'SABA BASHA', 'سابا باشا', '', '00:00:00', '2018-04-11 20:00:00', '2018-04-11 21:00:00'),
-(173, '1', 'SABA BASHA', 'سابا باشا', '', '00:00:00', '2018-04-11 18:30:00', '2018-04-11 18:59:00'),
-(174, '1', 'SABA BASHA', 'سابا باشا', '', '00:00:00', '2018-04-11 13:00:00', '2018-04-11 13:59:00'),
-(175, '1', 'SABA BASHA', 'سابا باشا', '', '00:00:00', '2018-04-11 14:30:00', '2018-04-11 14:59:00'),
-(176, '1', 'SABA BASHA', 'سابا باشا', '', '00:00:00', '2018-04-11 17:30:00', '2018-04-11 17:59:00');
+(1, '1', 'SABA BASHA', 'سابا باشا', '', '00:00:00', '2018-04-05 01:00:00', '2018-04-05 02:00:00');
 
 -- --------------------------------------------------------
 
@@ -177,21 +162,7 @@ CREATE TABLE `orderImage` (
 --
 
 INSERT INTO `orderImage` (`AI_orderImageId`, `image_orderId`, `order_ImageName`) VALUES
-(1, 3, 'uploads/order/1525036657572112'),
-(2, 3, 'uploads/order/1525036657332203'),
-(3, 3, 'uploads/order/152503665780809'),
-(4, 9, 'uploads/order/1525154352509451'),
-(5, 9, 'uploads/order/152515435281339'),
-(6, 9, 'uploads/order/15251543524269'),
-(7, 67, 'uploads/order/1525943404456089'),
-(8, 67, 'uploads/order/1525943404245571'),
-(9, 72, 'uploads/order/1526038711830688'),
-(10, 72, 'uploads/order/1526038711238189'),
-(11, 72, 'uploads/order/1526038711345772'),
-(12, 77, 'uploads/order/152664622667843'),
-(13, 77, 'uploads/order/1526646226686471'),
-(14, 77, 'uploads/order/1526646226768918'),
-(15, 78, 'uploads/order/1526646425871955');
+(1, 3, 'uploads/order/1525036657572112');
 
 -- --------------------------------------------------------
 
@@ -242,8 +213,7 @@ CREATE TABLE `slider_image` (
 --
 
 INSERT INTO `slider_image` (`Id`, `slider_image`) VALUES
-(48, 'uploads/slider_image/9056989729339746_10215626517514545_4148278254282735616_n.jpg'),
-(50, 'uploads/slider_image/53571494929257887_10215626517754551_1297727314833965056_n.jpg');
+(48, 'uploads/slider_image/9056989729339746_10215626517514545_4148278254282735616_n.jpg');
 
 -- --------------------------------------------------------
 
@@ -262,8 +232,7 @@ CREATE TABLE `Static_Category` (
 --
 
 INSERT INTO `Static_Category` (`cat_id`, `category_name`, `categoryNameArabic`) VALUES
-(65, ' IRON  steam', 'كي  بالبخار'),
-(66, 'dry cleaning', 'غسيل بالبخار');
+(65, ' steam', '');
 
 -- --------------------------------------------------------
 
@@ -282,33 +251,7 @@ CREATE TABLE `static_city` (
 --
 
 INSERT INTO `static_city` (`AI_cityId`, `city_name`, `cityNameArabic`) VALUES
-(1, 'Alexandria', 'الإسكندرية'),
-(2, 'Asyut', 'أسيوط'),
-(3, 'Aswan', 'أسوان'),
-(4, 'Beheira', 'البحيرة'),
-(5, 'Bani Sweif', 'بني سويف'),
-(6, 'Cairo', 'القاهرة'),
-(7, 'Dakahlia', 'الدقهلية'),
-(8, 'Giza', 'الجيزة'),
-(9, 'Damietta', 'دمياط'),
-(10, 'Fayoum', 'الفيوم'),
-(11, 'Gharbia', 'الغربية'),
-(12, 'Ismailia', 'الإسماعيلية'),
-(13, 'Kafr El Sheikh', 'كفر الشيخ'),
-(14, 'Matrouh', 'مطروح'),
-(15, 'Menia', 'المنيا'),
-(16, 'North Sinai', 'شمال سيناء'),
-(17, 'Monoufia', 'المنوفية'),
-(18, 'new Valley', 'الوادي الجديد'),
-(19, 'Port Said', 'بورسعيد'),
-(20, 'Qalyubia', 'القليوبية'),
-(21, 'Qena', 'قنا'),
-(22, 'Red Sea', 'البحر الاحمر'),
-(23, 'Sharqia', 'الشرقية'),
-(24, 'Sohag', 'سوهاج'),
-(25, 'South of Sinaa', 'جنوب سيناء'),
-(26, 'Suez', 'السويس'),
-(27, 'Luxor', 'الأقصر');
+(1, 'Alexandria', 'الإسكندرية');
 
 -- --------------------------------------------------------
 
@@ -350,11 +293,7 @@ CREATE TABLE `user` (
 --
 
 INSERT INTO `user` (`user_id`, `name`, `username`, `email`, `mobile`, `password`, `badge`, `selectedLanguage`, `device_type`, `device_token`, `profile_image`, `user_status`) VALUES
-(1, 'hsh', 'ios', 'ha@kk.com', '24646494949', 'qwerty', 0, '1', '2', '271c038355ffc2ae37ac75d6b0c6796ccec0e11b12a9618cc42bb15261d4a8e4', 'uploads/userProfile/noprifile.png', '1'),
-(2, 'Farida', 'ios', 'farida@gmail.com', '01001679464', '123456', 0, '0', '2', '1254e5367ad7572935110012496a4eef845bc32a593c700a026226744b77c2d8', 'uploads/userProfile/noprifile.png', '1'),
-(3, 'Ratha', 'ios', 'amar@a.com', '12345678909', '123456', 0, '1', '2', '1d184459a942828f4ffe8d71af70a80c206c923ba4eeb19b2cf8dfbdf1f75edb', 'uploads/userProfile/noprifile.png', '1'),
-(4, 'as', 'Android', 'as@j.com', '52535355565', 'qwerty', 1, '0', '1', 'key', 'uploads/userProfile/noprifile.png', '1'),
-(5, 'BHupi', 'Android', 'test@gmail.com', '12948738463', 'qwerty', 3, '0', '1', 'fNyOpxRM-O8:APA91bEobmodwrI2yn6a7vKUXNggPsWQ0aKRxPRt-rJN8jjtNwvaoH5mVxBnoLgQC8nZ-J9mylY0VDZGtwtpPo1n7tesaSmQvhOJiXeBSet0P8tycA_FpKnv0VdxfFp0hnShGvoa6tGB', 'uploads/userProfile/noprifile.png', '1');
+(1, 'hsh', 'ios', 'ha@kk.com', '24646494949', 'qwerty', 0, '1', '2', '271c038355ffc2ae37ac75d6b0c6796ccec0e11b12a9618cc42bb15261d4a8e4', 'uploads/userProfile/noprifile.png', '1');
 
 -- --------------------------------------------------------
 
